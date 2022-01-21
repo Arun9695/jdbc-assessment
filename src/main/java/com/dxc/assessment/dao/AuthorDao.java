@@ -12,5 +12,7 @@ public interface AuthorDao {
     List<Author> findByGenre(String genre);
 
     List<Author> findAll();
+
+    int save(Author bk);
     
 }
